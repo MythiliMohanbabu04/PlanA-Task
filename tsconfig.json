@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": ["es2017", "dom"],
+    "target": "es2016",
+    "types": ["cypress"],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true
+  }
+}

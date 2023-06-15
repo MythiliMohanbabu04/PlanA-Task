@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "cypress": "^12.14.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-multi-reporters": "^1.6.3",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-report-generator": "^6.2.0",
+    "typescript": "^5.1.3"
+  },
+  "scripts": {
+    "cypress-headless": "npx cypress run --headless",
+    "api-test": "npx cypress run --spec cypress/e2e/apitask.cy.ts",
+    "web-ui": "npx cypress run --spec cypress/e2e/automationtask.cy.ts",
+    "cypress-headless-chrome": "npx cypress run --headless --browser chrome",
+    "cypress-e2e-browser-chrome": "npx cypress run --browser chrome",
+    "mochaReport": "npx cypress run --reporter mochawesome"
+  },
+  "dependencies": {
+    "mochawesome-merge": "^4.3.0"
+  }
+}
